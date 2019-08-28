@@ -1,0 +1,553 @@
+.post-list__item {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  padding: 1rem;
+}
+.post-list__thumbnail {
+  padding: 1rem;
+}
+
+.post-list__content {
+  padding: 1rem;
+  text-align: left;
+}
+  .text-dev {
+    font-family: 'Montserrat';
+    font-size: 30px; 
+    letter-spacing: -0.5px;
+  }
+ .bg-preto {
+   background: #000;
+   position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+ }
+  /*INCRICAO*/
+  .sobe {
+    margin-top: -18px
+  }
+  /*FOOTER*/
+  .Fique {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .titulo-footer {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .footer-a {
+    color: #cccccc;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -30px
+  }
+  .footer-a:hover {
+    color: #d1440c;
+  }
+
+  /*BOTOES*/
+  .botao-passar {
+    background: #cccccc;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  .botao-passar:hover {
+    background: #e86240;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+ /*INDEX*/
+  .Titulo-inicial {
+    letter-spacing: -2px;
+     font-weight: 700; 
+     font-family: 'Montserrat';
+  }
+ .texto-inicial {
+    padding: 80px 0px 140px 0px; 
+    max-Width: 100%;
+    line-Height: 1.7;
+    font-family: "Montsserat", sans-serif;
+    font-size: 38px;
+    letter-spacing: -1px;
+    color: #7a7a7a
+   }
+  .garantir-vaga:hover {
+    background: #686868
+  }
+  .garantir-vaga {
+    margin: 0 auto;
+    background: #d1440c;
+    font-family: 'Montserrat';
+    font-size: 14px
+  }
+   .h2-titulos {
+    color: #686868;
+    font-Weight: bold;
+    font-Size: 45px;
+  }
+  .imagem-blog {
+    width: 350px;
+  }
+  .distancia {
+    margin-bottom: -10px;
+    width: 350px;
+  }
+  .contato {
+    color: #686868; 
+    font-weight: 600;
+    font-size: 23px; 
+    font-family: 'Montserrat'
+  }
+    /*HEADER*/
+    .menu-inicial {
+      float: right;
+    }
+    .logo {
+      width: 200px;
+    }
+    .image-segunda {
+      background-size: cover;
+    }
+    .image-politica {
+      background: url('../images/Japa.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+    }
+    .image-primeira {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25)), url("../images/FotoHome.png");
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: -8px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .img-alunos {
+        width: 100%;
+    }
+    .muda:hover {
+      color: #8d8888;
+    }
+    .muda { 
+      color:  rgb(226, 97, 45);
+      font-size: 12px;
+      margin-top: -10px;
+      font-weight: 600;
+    }
+    /* CURSOS */
+    .titulo-curso {
+      font-Family: 'Montserrat'; 
+      font-Size: 20px;
+      color: #686868; 
+      font-Weight: 600;
+      letter-Spacing: -0.5px;
+    }
+    .borda {
+      box-shadow: 0px 0px .7px .1px rgba(181,181, 181);
+    }
+    .botao-curso:hover {
+      transition: all .5s;
+      background-color: rgb(245, 153, 78);
+      color: #ffffff;
+    }
+    .botao-curso {
+      display: inline-block;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 12px 35px;
+      font-size: 15px;
+      line-height: 1.5;
+      border-radius: 100px;
+      font-weight: 600;
+      font-family: "Roboto", sans-serif;
+      background-color: #009ee2;
+    }
+    .letra-curso {
+      font-family: 'Montserrat', sans-serif;
+      color: inherit;
+    }
+    .galeria img:hover {
+      transition: .3s;
+      transform: scale(1.2);
+    }
+    /*SOBRE*/
+    .font-sobre-viva {
+      line-Height: 70px;
+      color: #fff;
+      font-family: 'Montserrat'
+     }
+    .letra-sobre {
+      font-Size: 20px; 
+      line-Height: 25px;
+      margin: 8px;
+      letter-spacing: -0.3px;
+    }
+    .sobreTulio {
+      color: #ffffff;
+      font-family: "Montserrat", Sans-serif;
+      line-height: 40px;
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: -0.3px;
+    }
+    .viva {
+      background: #000;
+    }
+    .font-sobre {
+      font-Size: 66px
+    }
+  
+    /*DICAS*/
+    .menu-dicas {
+      font-size: 14px;
+      font-weight: 550;
+      text-decoration: none;
+      letter-spacing: .3px;
+      zoom: 1;
+    }
+    .side-bar {
+      width: 300px;
+      height: 80px;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 14px;
+      margin-left: 0px;
+    }
+    .DesingCat {
+      font-family: 'Montserrat';
+      font-Size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 13px;
+      font-weight: 700;
+      color: #444444;
+      margin-top: -120px;
+      text-align: initial
+    }
+    .DesingTemas {
+      font-family: 'Montserrat';
+      font-Size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 13px;
+      font-weight: 700;
+      color: #444444;
+    }
+    .headers {
+      margin-top: -18px;
+    }
+    .imagem-dicas {
+      background: linear-gradient(rgba(0, 0, 0, 0.5)), url('../images/Dicas.png');
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-videos {
+      background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../images/videos.jpg");
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: 10px;      
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-videosTuto {
+      background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../images/VideoTutorials.jpg");
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-videosCont {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../images/Contasto.jpeg");
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: -8px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-Cinzas {
+      background: url("../images/Cinzas.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-verde {
+      background: url("../images/verde.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-carrer {
+      background: url("../images/carrer.jpg");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-windows {
+      background: url("../images/windows.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-entrevista {
+      background: url("../images/entrevistas.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-handsOn {
+      background: url("../images/handsOn.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-JS {
+      background: url("../images/JS.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-NODE {
+      background: url("../images/NODEJS.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-REACT {
+      background: url("../images/react.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    .imagem-web {
+      background: url("../images/web.png");
+      background-size: cover;
+      margin-bottom: 10px;
+      font-family: "Montserrat", Sans-serif;
+    }
+    /*BLOG*/
+    .pagination {
+      background-color: #cccccc;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      margin: 0 auto;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 2px;
+      margin-top: 10px;
+    }
+    .pagination:hover {
+      background-color: #e86240;
+    }
+    .titulo {
+      color: #444444;
+      font-family: 'Montserrat';
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .tag {
+      color: #999999;
+      font-size: 12px;
+      font-family: 'Open Sans'
+    }
+    .tag:hover {
+      color: #999999;
+    }
+    .titulo-blog {
+      font-size:  32px;
+      line-height: 35px; 
+      letter-spacing: -0.6px;
+      font-family: 'Montserrat';
+      color: #444444;
+    }
+    .titulo-blogD {
+      font-size:  42px;
+      line-height: 50px; 
+      letter-spacing: -0.6px;
+      font-family: 'Montserrat';
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .fonte-p{
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+     }
+    .border {
+      box-shadow: #000;
+    }
+    .tamanho {
+      width: 350px;
+      margin-left: 20px;
+    }
+    .elemento::before{
+      background: #000
+    }
+
+    /*COPY*/
+    .politica {
+      color: #e86240;
+      font-size: 14px;
+      font-family: 'Montserrat'
+    }
+    .politica:hover {
+      text-decoration: none;
+      color: #d3d3d3
+    }
+    @media (max-width: 1199px) {
+
+      /*INDEX*/
+      .imagem-blog {
+        width: 450px;
+      }
+      /*BLOG*/
+      .DesingCat {
+        margin-top: 0px
+      }
+      .tamanho {
+        width: 440px;
+        margin-left: 20px;
+      }
+      .side-bar {
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: -10px;
+      }
+      /*INSCRICAO*/
+      .centro {
+        text-align: center;
+      }
+      /*SOBRE*/
+      .sobreTulio {
+        line-height: 40px;
+        font-size: 22px;
+        margin-top: -50px
+      }
+
+    }
+    @media (max-width: 991px) {
+      /*INDEX*/
+
+      .imagem-blog {
+        width: 330px;
+      }
+
+      /*BLOG*/
+      .tamanho {
+        width: 330px;
+        margin-left: 20px;
+      }
+      .font-sobre-viva {
+        line-Height: 40px;
+        font-size: 32px;
+       }
+       /*INCRICAO*/
+       .centro {
+        text-align: center;
+      }
+      /*SOBRE*/
+      .sobreTulio {
+        line-height: 40px;
+        font-size: 20px;
+        margin-top: -120px;
+      }
+      .criador {
+        font-size: 20px;
+      }
+    }
+    @media (max-width: 768px) {
+      /*INDEX*/
+      .div-botao {
+        text-align: center;
+      }
+      .inicial {
+        padding: 2px 0px 40px;
+        margin-bottom: 18px;
+      }
+      .texto-inicial {
+        padding: 20px;
+        line-height: 40px;
+        font-size: 24px;
+      }
+      .text-dev {
+        font-size: 20px;
+        text-align: initial;
+        font-family: 'Montserrat'
+      }
+      .text-primeiros-passos {
+        font-Size: 18px;
+        text-align: initial
+      }
+      .blog {
+        width: 100%;
+      }
+      .espaco {
+        margin-top: 20px
+      }
+      .imagem-blog {
+        width: 100%
+      }
+      
+      /*SOBRE*/
+      .font-sobre {
+        margin-top: -40px;
+        margin-bottom: -40px;
+        font-Size: 42px;
+      }
+      .text-primeiros-passos {
+      text-align: center
+      }
+
+      /*INCRICAO*/
+      .text-dev {
+        text-align: center
+        }
+        .centro {
+          text-align: center;
+        }
+        /*BLOG*/
+        .font-sobre-viva {
+          line-Height: 40px;
+          font-size: 28px;
+         }
+      }
+    @media (max-width: 767px) {
+      .sobreTulio {
+        margin-top: -80px;
+        line-height: 40px;
+        font-size: 18px;
+      }
+      .titulo-blogD {
+        font-size: 28px;
+        line-height: 35px;
+      }
+      /*HEADER*/
+      .menu-inicial {
+        float: none;
+      }
+      /*BLOG*/
+      .tamanho {
+        width: 100%;
+        margin-left: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    }
