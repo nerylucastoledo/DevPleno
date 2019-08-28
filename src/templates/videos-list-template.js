@@ -20,12 +20,12 @@ class VideoList extends React.Component{
                 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet"></link>
 
                     {/* HEADER*/}
-                    <div class = 'imagem-dicas text-white'>
+                    <div class = 'imagem-videos text-white'>
                         <HeaderDicas/>
                         <div class = 'container text-center inicial'>
                             <h2 class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
                                 >
-                                DICAS
+                                VÍDEO
                             </h2>
                         </div>
                     </div>
