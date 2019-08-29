@@ -3,7 +3,7 @@ title: "Render condicional em ReactJS"
 date: "2017-01-25"
 thumbnail: "./RenderCondicional.jpg"
 author: Tulio Faria
-tags: ["Dicas"]
+tags: ["Dicas", "React"]
 keywords: "reactjs"
 ---
 

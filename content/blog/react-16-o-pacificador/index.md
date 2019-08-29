@@ -3,7 +3,7 @@ title: "React 16 - o Pacificador"
 date: "2017-10-02"
 thumbnail: "./React16.png"
 author: Tulio Faria
-tags: ["Tecnologia", "Videos"]
+tags: ["Tecnologia", "Videos", "React"]
 keywords: "tecnologia"
 ---
 

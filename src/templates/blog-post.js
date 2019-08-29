@@ -1,6 +1,7 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
+import { kebabCase } from 'lodash'
 import { DiscussionEmbed } from "disqus-react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -23,7 +24,7 @@ class BlogPostTemplate extends React.Component {
 
         <div style = {{fontFamily: "Montserrat"}} class = 'imagem-dicas bg-dark text-white'>
           <HeaderDicas/>
-          <div class = 'container text-center inicial py-5'>
+          <div class = 'container text-center inicial pb-5'>
               <h2 style ={{textTransform: 'uppercase'}} class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
                   >
                   {post.frontmatter.title}
@@ -67,10 +68,26 @@ class BlogPostTemplate extends React.Component {
             {/* HTML */}
             <div dangerouslySetInnerHTML={{ __html: post.html }} /></div>
 
-            <div class = 'mt-5'>
-              <p className="ll">EM: <a className="final" href="/"> {post.frontmatter.tags} </a></p>
-              <p className="ll">SOBRE: <a className="final" href="/"> {post.frontmatter.keywords}</a></p>
-            </div>
+            {/* TAGS */}
+            {post.frontmatter.tags ? (
+              <div className="tags-container">
+                <div class = 'row'>
+                  <p class = 'ml-3' style = {{color: '#bbb'}}>Em: </p>
+                  {post.frontmatter.tags.map(tag => (
+                    <p key={tag + `tag`} class = 'ml-3'>
+                        <span>
+                            <Link
+                                style = {{color: '#d1440c', fontSize: '14px'}} 
+                                to={`/tags/${kebabCase(tag)}/`}
+                                >
+                                {tag}
+                            </Link>
+                        </span>
+                    </p>
+                  ))}
+                  </div>
+              </div>
+            ) : null}
             <hr/>
             <div class = 'mt-5'>
               <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>

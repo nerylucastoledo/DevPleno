@@ -10,7 +10,9 @@ const HeaderInicial = () => {
               <NavBar/>
 
               <div class = 'container text-center inicial'>
-                <p style = {{fontFamily: 'Montserrat'}} class = 'texto-inicial text-white mt-2'><strong>Conhecimento Premium </strong> 
+                <p style = {{fontFamily: 'Montserrat'}} 
+                  class = 'texto-inicial text-white mt-2'>
+                  <strong>Conhecimento Premium </strong> 
                   para você, desenvolvedor, fazer a diferença no mercado, criar 
                   <strong> projetos de resultado </strong> 
                   <br/> e ser 

@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos na Toptal – Série Trabalho Remoto"
 date: "2018-02-21"
-tags: ["Dicas", "Videos"]
+tags: ["Dicas", " Videos"]
 thumbnail: "./PrimeirosPassos.png"
 author: Tulio Faria
 keywords: "carreira"

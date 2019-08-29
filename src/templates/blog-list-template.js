@@ -55,18 +55,20 @@ class BlogList extends React.Component{
                                                     {/* TAGS */}
                                                     {node.frontmatter.tags ? (
                                                         <div className="tags-container">
-                                                            {node.frontmatter.tags.map(tag => (
-                                                                <p key={tag + `tag`} class = 'ml-3'>
-                                                                    <span>
-                                                                        <Link 
-                                                                            style = {{color: '#bbb', fontSize: '14px'}} 
-                                                                            to={`/tags/${kebabCase(tag)}/`}
-                                                                            >
-                                                                            {tag}
-                                                                        </Link>
-                                                                    </span>
-                                                                </p>
+                                                            <div class = 'row'>
+                                                                {node.frontmatter.tags.map(tag => (
+                                                                    <p key={tag + `tag`} class = 'ml-3'>
+                                                                        <span class = 'ml-3'>
+                                                                            <Link 
+                                                                                style = {{color: '#bbb', fontSize: '14px'}} 
+                                                                                to={`/tags/${kebabCase(tag)}/`}
+                                                                                >
+                                                                                {tag}
+                                                                            </Link>
+                                                                        </span>
+                                                                    </p>
                                                                 ))}
+                                                            </div>
                                                         </div>
                                                     ) : null}
 

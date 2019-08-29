@@ -3,7 +3,7 @@ title: "ReactJS: comentários em JSX"
 date: "2016-11-23"
 thumbnail: "./React.jpg"
 author: Tulio Faria
-tags: ["Dicas"]
+tags: ["Dicas", "React"]
 keywords: "reactjs"
 ---
 

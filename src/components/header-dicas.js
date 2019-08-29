@@ -8,7 +8,12 @@ class HeaderDicas extends Component {
     return (
       <div>
         <nav class=" navbar container navbar-expand-lg">
-            <a class="navbar-brand" href="/"><img class = 'logo' src = {LogoDevBranco} alt = 'Logo Preto'></img></a>
+            <a class="navbar-brand" href="/">
+              <img class = 'logo' 
+                src = {LogoDevBranco} 
+                alt = 'Logo Preto'>
+              </img>
+            </a>
             <button 
               class="navbar-toggler bg-dark" 
               type="button" 

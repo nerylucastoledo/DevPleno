@@ -35,8 +35,12 @@ export default ({ data }) => {
 
                       {/* IMAGEM */}
                       <Link to={node.fields.slug}>
-                          <img class = 'imagem-blog' src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt = 'Thumbnail'/>
+                          <img class = 'imagem-blog' 
+                            src={node.frontmatter.thumbnail.childImageSharp.fluid.src} 
+                            alt = 'Thumbnail'
+                          />
                       </Link>
+                      
                       {/* TITULO */}
                       <p href={node.fields.slug}>
 

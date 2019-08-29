@@ -19,8 +19,7 @@ import { graphql } from "gatsby"
           <HeaderDicas/>
           <div class = 'container text-center inicial'>
               <h2 class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
-                  >
-                  COLCOCAR O TITULO
+                  >BLOGS
               </h2>
           </div>
         </div>
@@ -58,6 +57,12 @@ import { graphql } from "gatsby"
                             >por: {node.frontmatter.author}
                           </p>
                         </div> 
+                        {/* TAGS */}
+                          <a style ={{color: '#bbb'}} 
+                            class =  'ml-3 mr-1' 
+                            href = {node.frontmatter.tags}>
+                            Categoria: {node.frontmatter.tags}
+                          </a>
 
                           {/* IMAGEM */}
                           <img 

@@ -3,7 +3,7 @@ title: "Construindo um App gerenciador de séries com ReactJS"
 date: "2017-0719"
 thumbnail: "ReactJS-1-790x400.png"
 author: "Tulio Faria"
-tags: ["Dicas", "Video-Tutorial", "Videos"]
+tags: ["Dicas", "React", "Video-Tutorial", "Videos"]
 keywords: "react"
 ---
 

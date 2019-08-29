@@ -7,7 +7,10 @@ import Twiter from '../images/Twitter.png'
 const MaisConteudos = () => {
     return (
         <section class = 'text-center text-white py-5' style = {{background: "#000"}}>
-          <h2 class = 'pb-5 h2-titulos font-weight-bold text-white Titulo-inicial'>Mais Conteúdos</h2>
+          <h2 class = 'pb-5 h2-titulos font-weight-bold text-white Titulo-inicial'
+            >Mais Conteúdos
+          </h2>
+          
           <div class = 'pb-3'>
 
               {/* YOUTUBE */}

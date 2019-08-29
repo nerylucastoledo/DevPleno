@@ -27,6 +27,8 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              fontFamilly: 'Montserrat',
+              classPrefix: "pt-br"
             },
           },
           {

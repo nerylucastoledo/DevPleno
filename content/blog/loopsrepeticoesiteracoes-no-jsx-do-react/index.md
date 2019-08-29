@@ -3,7 +3,7 @@ title: "Loops/Repetições/Iterações no JSX do React"
 date: "2016-12-27"
 thumbnail: "./Lops.jpg"
 author: "Tulio Faria"
-tags: ["Dicas"]
+tags: ["Dicas", "React"]
 keywords: "react"
 ---
 
