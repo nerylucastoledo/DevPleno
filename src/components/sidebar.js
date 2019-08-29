@@ -62,7 +62,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-carrer'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/carreira/'
+                                        href = '/carreira/'
                                         >CARREIRA
                                     </a>
                                 </li>
@@ -80,7 +80,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-Cinzas'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/'
+                                        href = '/devpleno'
                                         >DEVPLENO
                                     </a>
                                 </li>

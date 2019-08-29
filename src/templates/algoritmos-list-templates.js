@@ -1,26 +1,25 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Layout from "../components/layout"
 import HeaderDicas from '../components/header-dicas'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
 // Components
 import { Link, graphql } from "gatsby"
-  const Tags = ({ data }) => {
+  const AlgoritmosList = ({ data }) => {
   return (
     <div>
-        <Helmet title="Dicas Archives - DevPleno" /> 
+        <Helmet title="Algoritmos Archives - DevPleno" /> 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet"></link>
       <div>
-        <div style = {{fontFamily: "Montserrat"}} class = 'imagem-dicas bg-dark text-white'>
+        <div id = 'algoritmos' style = {{fontFamily: "Montserrat"}} class = 'text-white'>
           <HeaderDicas/>
           <div class = 'container text-center inicial'>
               <h2 class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
-                  >BLOGS
+                  >ALGORITMOS
               </h2>
           </div>
         </div>
@@ -110,48 +109,26 @@ import { Link, graphql } from "gatsby"
     </div>
   )
 }
-Tags.propTypes = {
-  pageContext: PropTypes.shape({
-    tag: PropTypes.string.isRequired,
-  }),
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      totalCount: PropTypes.number.isRequired,
-      edges: PropTypes.arrayOf(
-        PropTypes.shape({
-          node: PropTypes.shape({
-            frontmatter: PropTypes.shape({
-              title: PropTypes.string.isRequired,
-            }),
-            fields: PropTypes.shape({
-              slug: PropTypes.string.isRequired,
-            }),
-          }),
-        }).isRequired
-      ),
-    }),
-  }),
-}
-export default Tags
+export default AlgoritmosList
 export const pageQuery = graphql`
-  query($tag: String) {
+query algoritmosListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      limit: $limit
+      skip: $skip
+      filter: {frontmatter: {tags: {eq: "Algoritmos"}}}
     ) {
-      totalCount
       edges {
         node {
-          excerpt(pruneLength: 250)
+            excerpt(pruneLength: 250)
             fields {
                 slug
-            }
+                }
           frontmatter {
             title
             tags
-            date
             author
+            date
             thumbnail {
                 childImageSharp {
                     fluid {

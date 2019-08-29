@@ -92,6 +92,45 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/carreira` : `/carreira/${i + 1}`,
+      component: path.resolve("./src/templates/carreira-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {keywords: {eq: "carreira"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/algoritmos` : `/algoritmos/${i + 1}`,
+      component: path.resolve("./src/templates/algoritmos-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Algoritmos"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/devpleno` : `/devpleno/${i + 1}`,
+      component: path.resolve("./src/templates/devpleno-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "DevPleno"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
   // Criação das paginas do Blog.
   posts.forEach((post, index, node) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
