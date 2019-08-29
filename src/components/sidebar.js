@@ -53,7 +53,7 @@ const SideBar = () => {
                             <div class = 'side-bar mt-2 pt-4 imagem-verde'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/algoritmos/'
+                                        href = '/algoritmos/'
                                         >ALGORITMOS
                                     </a>
                                 </li>
@@ -89,7 +89,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-dicas'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/dicas/'
+                                        href = '/dicas/'
                                         >DICA
                                     </a>
                                 </li>
@@ -98,7 +98,7 @@ const SideBar = () => {
                             <div class = 'side-bar mt-2 pt-4 imagem-dicas'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/dicas/'
+                                        href = '/dicas/'
                                         >DICAS
                                     </a>
                                 </li>
@@ -107,7 +107,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-carrer'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/dicas-de-carreira/'
+                                        href = '/dicas-de-carreira/'
                                         >DICAS DE CARREIRA
                                     </a>
                                 </li>
@@ -116,7 +116,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-Cinzas'>
                                 <li>
                                     <a class = 'text-white'
-                                        href = '/tags/dicas-de-estudo/'
+                                        href = '/dicas-de-estudo/'
                                         >DICAS DE ESTUDOS
                                      </a>
                                 </li>
@@ -125,7 +125,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-entrevista'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/entrevistas/'
+                                        href = '/entrevistas/'
                                         >ENTREVISTAS
                                     </a>
                                 </li>
@@ -134,7 +134,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-handsOn'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/hands-on/'
+                                        href = '/hands-on/'
                                         >HANDS-ON
                                     </a>
                                 </li>
@@ -143,7 +143,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-JS'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/java-script/'
+                                        href = '/java-script/'
                                         >JAVASCRIPT
                                     </a>
                                 </li>
@@ -152,7 +152,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-Cinzas'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/maratona-de-programacao/'
+                                        href = '/maratona-de-programacao/'
                                         >MARATONA DE PROGRAMAÇÃO
                                         </a>
                                 </li>
@@ -161,7 +161,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-NODE'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/node-js/'
+                                        href = '/node-js/'
                                         >NODEJS
                                     </a>
                                 </li>
@@ -170,7 +170,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-REACT'>
                                 <li>
                                     <a class = 'text-white'
-                                        href = '/tags/react/'
+                                        href = '/react/'
                                         >REACTJS
                                     </a>
                                 </li>
@@ -179,7 +179,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-Cinzas'>
                                 <li>
                                     <a class = 'text-white'
-                                        href = '/tags/socket/'
+                                        href = '/socket/'
                                         >SOCKET.IO
                                     </a>
                                 </li>
@@ -188,7 +188,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-Cinzas'>
                                 <li>
                                     <a class = 'text-white' 
-                                        href = '/tags/tecnologia/'
+                                        href = '/tecnologia/'
                                         >TECNOLOGIA
                                     </a>
                                 </li>
@@ -197,7 +197,7 @@ const SideBar = () => {
                             <div class = 'side-bar pt-4 mt-2 imagem-web'>
                                 <li>
                                     <a class = 'text-white'
-                                        href = '/tags/web-basics/'
+                                        href = '/web-basics/'
                                         >WEB-BASICS
                                     </a>
                                 </li>

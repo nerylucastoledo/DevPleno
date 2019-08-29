@@ -5,10 +5,10 @@ import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
 // Components
 import { Link, graphql } from "gatsby"
-  const DevPlenoList = ({ data }) => {
+  const MaratonaList = ({ data }) => {
   return (
     <div>
-        <Helmet title="DevPleno Archives - DevPleno" /> 
+        <Helmet title="Dicas Archives - DevPleno" /> 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@ import { Link, graphql } from "gatsby"
           <HeaderDicas/>
           <div class = 'container text-center inicial'>
               <h2 class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
-                  >DEVPLENO
+                  >MARATONA DE PROGRAMAÇAO
               </h2>
           </div>
         </div>
@@ -109,14 +109,14 @@ import { Link, graphql } from "gatsby"
     </div>
   )
 }
-export default DevPlenoList
+export default MaratonaList
 export const pageQuery = graphql`
-query DevPlenoListQuery($skip: Int!, $limit: Int!) {
+query maratonaListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
-      filter: {frontmatter: {tags: {eq: "DevPleno"}}}
+      filter: {frontmatter: {keywords: {eq: "maratona de programação"}}}
     ) {
       edges {
         node {

@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
 // Components
 import { Link, graphql } from "gatsby"
-class DicasList extends React.Component {
+class TecnologiaList extends React.Component {
     render() {
         const post = this.props.data
         const { currentPage, numPages } = this.props.pageContext
@@ -22,11 +22,11 @@ class DicasList extends React.Component {
                 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet"></link>
             <div>
-                <div style = {{fontFamily: "Montserrat"}} class = 'imagem-dicas text-white'>
+                <div id = "Cinza" style = {{fontFamily: "Montserrat"}} class = 'text-white'>
                 <HeaderDicas/>
                 <div class = 'container text-center inicial'>
                     <h2 class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
-                        >DICAS
+                        >TECNOLOGIA
                     </h2>
                 </div>
                 </div>
@@ -126,14 +126,14 @@ class DicasList extends React.Component {
         )
     }
 }
-export default DicasList
+export default TecnologiaList
 export const pageQuery = graphql`
-query dicasListQuery($skip: Int!, $limit: Int!) {
+query tecnologiaListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
-      filter: {frontmatter: {tags: {eq: "Dicas"}}}
+      filter: {frontmatter: {tags: {eq: "Tecnologia"}}}
     ) {
       edges {
         node {

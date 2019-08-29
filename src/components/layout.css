@@ -16,7 +16,30 @@
   background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/Algoritmos.png") center center;
   background-size: cover;
 }
-
+#Cinza{
+  background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/Cinza.jpg") center center;
+  background-size: cover;
+}
+#Entrevistass{
+  background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/Entrevistass.png") center center;
+  background-size: cover;
+}
+#Handss{
+  background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/Handss.png") center center;
+  background-size: cover;
+}
+#Web{
+  background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/web.png") center center;
+  background-size: cover;
+}
+#React{
+  background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/react.png") center center;
+  background-size: cover;
+}
+#Node{
+  background:linear-gradient(rgba(0, 0, 0, 0.55)) ,  url("../images/NODEJS.png") center center;
+  background-size: cover;
+}
 /*TAGS*/
 .imagens {
   max-width: 100%;

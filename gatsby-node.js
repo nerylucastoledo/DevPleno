@@ -131,6 +131,149 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/dicas` : `/dicas/${i + 1}`,
+      component: path.resolve("./src/templates/dicas-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Dicas"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/dicas-de-estudo` : `/dicas-de-estudo/${i + 1}`,
+      component: path.resolve("./src/templates/dicas-estudos-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Dicas de Estudo"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/entrevistas` : `/entrevistas/${i + 1}`,
+      component: path.resolve("./src/templates/entrevistas-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Entrevistas"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/hands-on` : `/hands-on/${i + 1}`,
+      component: path.resolve("./src/templates/handson-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Hands-On"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/java-script` : `/java-script/${i + 1}`,
+      component: path.resolve("./src/templates/javascript-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "JavaScript"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/maratona-de-programacao` : `/maratona-de-programacao/${i + 1}`,
+      component: path.resolve("./src/templates/maratona-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "JavaScript"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/tecnologia` : `/tecnologia/${i + 1}`,
+      component: path.resolve("./src/templates/tecnologia-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Tecnologia"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/node-js` : `/node-js/${i + 1}`,
+      component: path.resolve("./src/templates/nodejs-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "NodeJS"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/react` : `/react/${i + 1}`,
+      component: path.resolve("./src/templates/reactjs-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "React"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/socket` : `/socket/${i + 1}`,
+      component: path.resolve("./src/templates/socket-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Socket"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/web-basics` : `/web-basics/${i + 1}`,
+      component: path.resolve("./src/templates/web-list-templates.js"), 
+      context: {
+        filter: {frontmatter: {tags: {eq: "Web-list"}}},
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
   // Criação das paginas do Blog.
   posts.forEach((post, index, node) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
