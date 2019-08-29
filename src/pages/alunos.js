@@ -41,7 +41,7 @@ const Alunos = () => {
                                 src = {DEVREACTJS} 
                                 alt = 'DevReactJS'/>
                             <a style = {{textDecoration: 'none', fontSize: '18px'}} 
-                                href = 'https://handsonreactjsedicaomercadodev.club.hotmart.com/login' 
+                                href = 'https://reactjs.club.hotmart.com/login' 
                                 class = 'botao-curso btn-curso py-2 px-4 mt-3'>
                                 ACESSAR AS AULAS</a>
                         </div>
@@ -52,7 +52,7 @@ const Alunos = () => {
                                 src = {FSM} 
                                 alt = 'Fullstack Master'/>
                             <a style = {{textDecoration: 'none', fontSize: '18px'}} 
-                                href = 'https://handsonreactjsedicaomercadodev.club.hotmart.com/login' 
+                                href = 'https://fullstackmaster.club.hotmart.com/login' 
                                 class = 'botao-curso btn-curso py-2 px-4 mt-3'>
                                 ACESSAR AS AULAS</a>
                         </div>
@@ -63,7 +63,7 @@ const Alunos = () => {
                                 src = {FSA} 
                                 alt = 'Fullstack Academy'/>
                             <a style = {{textDecoration: 'none', fontSize: '18px'}} 
-                                href = 'https://handsonreactjsedicaomercadodev.club.hotmart.com/login' 
+                                href = 'http://www.certificados.devpleno.com/' 
                                 class = 'botao-curso btn-curso py-2 px-3 mt-3'>
                                 VALIDAR CERTIFICADO</a>
                         </div>
