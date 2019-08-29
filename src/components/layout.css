@@ -7,6 +7,19 @@
   }
   padding: 1rem;
 }
+
+/*TAGS*/
+.imagens {
+  max-width: 100%;
+}
+.pol {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #777777;
+  font-weight: 200;
+}
+/*THUMBNAILS*/
 .post-list__thumbnail {
   padding: 1rem;
 }
@@ -530,6 +543,14 @@
          }
       }
     @media (max-width: 767px) {
+      /*TAGS*/
+      .pol {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #777777;
+        font-weight: 200;
+      }
       .sobreTulio {
         margin-top: -80px;
         line-height: 40px;

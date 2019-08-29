@@ -153,7 +153,7 @@ query VideoListQuery($skip: Int!, $limit: Int!) {
             excerpt(pruneLength: 100)
             fields {
                 slug
-                }
+            }
           frontmatter {
             title
             tags

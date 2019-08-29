@@ -24,9 +24,10 @@ class BlogPostTemplate extends React.Component {
         <div class = 'bg-dark'>
           <HeaderDicas/>
           <div class = 'container text-center text-white texto-inicial'>
-            <h1 class = 'font-weight-bold py-1 mb-5 mt-5 container titulo-blogD'
+            <h1 class = 'font-weight-bold py-1 mb-2 mt-3 container titulo-blogD'
               >{post.frontmatter.title}
             </h1>
+            <p class = 'container imgback3'>{post.excerpt}</p>
           </div>
         </div>
 
@@ -65,15 +66,14 @@ class BlogPostTemplate extends React.Component {
             {/* HTML */}
             <div dangerouslySetInnerHTML={{ __html: post.html }} /></div>
 
-            <a style ={{color: '#bbb'}} 
-              class =  'ml-3 mr-1' 
-              href = {post.frontmatter.tags}>
-              Categoria: 
-              <span style = {{color: '#e86240', fontWeight: '600'}}> {post.frontmatter.tags}</span>
-            </a> 
-              <div class = 'mt-5'>
-                <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>
-              </div>
+            <div class = 'mt-5'>
+              <p className="ll">EM: <a className="final" href="/"> {post.frontmatter.tags} </a></p>
+              <p className="ll">SOBRE: <a className="final" href="/"> {post.frontmatter.keywords}</a></p>
+            </div>
+            <hr/>
+            <div class = 'mt-5'>
+              <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>
+            </div>
         </Layout>
       </div>
     )
@@ -98,6 +98,7 @@ query BlogPostBySlug($slug: String!) {
       date
       author
       tags
+      keywords
       thumbnail {
         childImageSharp {
             fluid {

@@ -34,7 +34,7 @@ class HeaderDicas extends Component {
                   <a class="nav-link text-white ml-1" href="/contato">Fale Conosco</a>
                 </li>
               </ul>
-          </div>
+            </div>
         </nav>
       </div>
     )
