@@ -3,7 +3,7 @@ title: "Hands-on - Socket.io Parte 2"
 date: "2017-05-12"
 thumbnail: "./Socket.IO2.png"
 author: Tulio Faria
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "Socket"]
 keywords: "Hands-On"
 ---
 

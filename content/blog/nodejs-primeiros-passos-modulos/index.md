@@ -4,7 +4,7 @@ date: "2016-07-27"
 thumbnail: "./NPMModulos.png"
 keywords: "node"
 author: "Tulio Faria"
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "NodeJS"]
 ---
 
 ---

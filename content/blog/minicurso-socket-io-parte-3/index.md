@@ -3,7 +3,7 @@ title: "Minicurso Socket.IO - Parte 3 - Recebendo a notificação de Gol"
 date: "2017-07-07"
 thumbnail: "./socketpart3.png"
 author: "Tulio Faria"
-tags: ["Video-tutorial"]
+tags: ["Video-Tutorial", "Socket"]
 keywords: "socket.io"
 ---
 

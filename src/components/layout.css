@@ -356,6 +356,10 @@
       font-family: "Montserrat", Sans-serif;
     }
     /*BLOG*/
+    .excerpt {
+      margin-top: -140px;
+      font-size: 15px;
+    }
     .pagination {
       background-color: #cccccc;
       padding: 10px 20px 10px 20px;
@@ -541,6 +545,10 @@
           line-Height: 40px;
           font-size: 28px;
          }
+         .excerpt {
+          margin-top: -20px;
+          font-size: 14px;
+        }
       }
     @media (max-width: 767px) {
       /*TAGS*/
@@ -563,6 +571,11 @@
       /*HEADER*/
       .menu-inicial {
         float: none;
+        margin: 0 auto;
+        margin-bottom: 40px
+      }
+      .meio {
+        margin: 0 auto
       }
       /*BLOG*/
       .tamanho {

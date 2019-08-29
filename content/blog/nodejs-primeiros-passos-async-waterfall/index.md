@@ -2,7 +2,7 @@
 title: "NodeJS Primeiros Passos: Async - Waterfall"
 date: "2016-08-15"
 thumbnail: "./AsyncWaterfall.png"
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "NodeJS"]
 author: "Tulio Faria"
 keywords: "node"
 ---

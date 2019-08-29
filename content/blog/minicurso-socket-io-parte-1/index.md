@@ -3,7 +3,7 @@ title: "Minicurso Socket.IO - Parte 01 - Começando o projeto"
 date: "2017-07-05"
 thumbnail: "./socketpart1.png"
 author: "Tulio Faria"
-tags: ["Video-Tutorial"]
+ttags: ["Video-Tutorial", "Socket"]
 keywords: "socket.io"
 ---
 

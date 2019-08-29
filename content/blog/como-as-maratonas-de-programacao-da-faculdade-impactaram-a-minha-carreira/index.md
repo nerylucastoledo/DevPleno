@@ -1,7 +1,7 @@
 ---
 title: "Como as maratonas de programação da faculdade impactaram a minha carreira"
 date: "2019-03-19"
-tags: ["Dicas", "Tecnologia"]
+tags: ["Dicas", "Tecnologia", "DevPleno", "maratona de programação", "Dicas de estudo", " Dicas de Carreira"]
 author: "Tulio Faria"
 thumbnail: "top-tal-790x400.png"
 keywords: "dicas estudo"

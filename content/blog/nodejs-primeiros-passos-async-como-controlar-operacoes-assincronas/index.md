@@ -3,7 +3,7 @@ title: "NodeJS Primeiros Passos: Async - Como Controlar Operações Assíncronas
 date: "2016-08-12"
 thumbnail: "./Async.png"
 author: "Tulio FARIA"
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "NodeJS"]
 keywords: "node"
 ---
 

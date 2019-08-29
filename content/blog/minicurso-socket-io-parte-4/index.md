@@ -3,7 +3,7 @@ title: "Minicurso Socket.IO Parte 4 - Separando notificações por Rooms"
 date: "2017-07-10"
 thumbnail: "./socketpart4.png"
 author: "Tulio Faria"
-tags: ["Video-tutorial"]
+tags: ["Video-Tutorial", "Socket"]
 keywords: "socket.io"
 ---
 

@@ -4,7 +4,7 @@ date: "2016-07-12"
 thumbnail: "./NodePromises.png"
 author: "Tulio Faria"
 keywords: "node"
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "NodeJS"]
 ---
 
 ---

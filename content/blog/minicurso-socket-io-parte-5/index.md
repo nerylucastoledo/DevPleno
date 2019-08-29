@@ -3,7 +3,7 @@ title: "Minicurso Socketio - Parte 05 - Colocando o projeto no ar"
 date: "2017-07-11"
 thumbnail: "./SocketIOpart5.png"
 author: "Tulio Faria"
-tags: ["Video-tutorial"]
+tags: ["Video-Tutorial", "Socket"]
 keywords: "socket.io"
 ---
 

@@ -5,7 +5,7 @@ import HeaderDicas from '../components/header-dicas'
 import Helmet from 'react-helmet'
 // Components
 import { graphql } from "gatsby"
-  const Tags = ({ pageContext, data }) => {
+  const Tags = ({ data }) => {
   return (
     <div>
         <Helmet title="Dicas Archives - DevPleno" /> 

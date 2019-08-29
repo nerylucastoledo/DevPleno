@@ -3,7 +3,7 @@ title: "Comunicação em tempo-real com Node e Socket.io"
 date: "2017-05-11"
 thumbnail: "./Socket.IO1.png"
 author: Tulio Faria
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "Socket", "NodeJS"]
 keywords: "hands-On"
 ---
 

@@ -3,7 +3,7 @@ title: "Minicurso Socket.IO - Parte 02 - Adicionando o Socket.IO"
 date: "2017-07-06"
 thumbnail: "./socketpart2.png"
 author: "Tulio Faria"
-tags: ["Video-tutorial"]
+tags: ["Video-Tutorial", "Socket"]
 keywords: "socket.io"
 ---
 

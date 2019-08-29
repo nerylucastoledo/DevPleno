@@ -100,6 +100,9 @@ class BlogList extends React.Component{
                                                         </a>
                                                     </div>
                                                 </div>
+                                                <div class = "mt-5" style = {{opacity: '0.3'}}>
+                                                <hr/>
+                                                </div>
                                             </div>
                                         </div>
                                     ))}

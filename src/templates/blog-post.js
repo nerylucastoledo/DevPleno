@@ -21,13 +21,14 @@ class BlogPostTemplate extends React.Component {
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"></link>
 
-        <div class = 'bg-dark'>
+        <div style = {{fontFamily: "Montserrat"}} class = 'imagem-dicas bg-dark text-white'>
           <HeaderDicas/>
-          <div class = 'container text-center text-white texto-inicial'>
-            <h1 class = 'font-weight-bold py-1 mb-2 mt-3 container titulo-blogD'
-              >{post.frontmatter.title}
-            </h1>
-            <p class = 'container imgback3'>{post.excerpt}</p>
+          <div class = 'container text-center inicial py-5'>
+              <h2 style ={{textTransform: 'uppercase'}} class = 'texto-inicial text-white text-white my-3 font-weight-bold font-sobre-viva'
+                  >
+                  {post.frontmatter.title}
+              </h2>
+              <p class = 'pb-4 excerpt'>{post.excerpt}</p>
           </div>
         </div>
 
@@ -107,6 +108,7 @@ query BlogPostBySlug($slug: String!) {
         }
       }
     }
+    excerpt(pruneLength: 325)
   }
 }
 `

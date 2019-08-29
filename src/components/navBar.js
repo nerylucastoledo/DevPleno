@@ -17,9 +17,9 @@ const NavBar = () => {
           </a>
 
           <div class = 'menu-inicial mt-3 row'>
-                <a class="nav-link" href="/sobre"><p class = 'muda'>SOBRE</p></a>
-                <a class="nav-link" href="/blog"><p class = 'muda'>BLOG</p></a>
-                <a class="nav-link" href="/alunos"><p class = 'muda'>ALUNOS</p></a>
+                <a class="nav-link meio" href="/sobre"><p class = 'muda'>SOBRE</p></a>
+                <a class="nav-link meio" href="/blog"><p class = 'muda'>BLOG</p></a>
+                <a class="nav-link meio" href="/alunos"><p class = 'muda'>ALUNOS</p></a>
           </div>
         </div>
       </nav>

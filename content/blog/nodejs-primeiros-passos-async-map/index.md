@@ -4,7 +4,7 @@ date: "2016-08-17"
 thumbnail: "./AsyncMap.png"
 author: "Tulio Faria"
 keywords: "node"
-tags: ["Video-Tutorial"]
+tags: ["Video-Tutorial", "NodeJS"]
 ---
 
 ---
