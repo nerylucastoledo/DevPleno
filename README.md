@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 #DEVPLENO
 
-Desenvolvido por LUCAS NERY :)
+Site desenvolvido para uma empresa onde eu era estagiário, site feito totalmente para aprendizado próprio e não para uso.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
