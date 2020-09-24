@@ -4,4 +4,4 @@ Site desenvolvido no meu estagio anterior, site feito totalmente para aprendizad
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Link do site no [Netlify](www.sitedevplenolucas.netlify.app)
+Link do site no [Netlify](https://sitedevplenolucas.netlify.app/)
