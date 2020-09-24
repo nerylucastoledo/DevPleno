@@ -1,8 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-#DEVPLENO
+# DevPleno
 
-Site desenvolvido para uma empresa onde eu era estagiário, site feito totalmente para aprendizado próprio e não para uso.
+Site desenvolvido no meu estagio anterior, site feito totalmente para aprendizado próprio.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Link: sitetestelucas.netlify.app
+Link do site no [Netlify](sitetestelucas.netlify.app)
